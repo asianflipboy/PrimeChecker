@@ -37,3 +37,17 @@ def prmchkr(x)
            puts "#{x} is a prime"
     end
 end
+
+#Defining a function to determin if it's an even number
+def prmRnr(x)
+    
+    if x%2==0
+      x-=1
+    end
+    
+    while x>1
+      prmchkr(x)
+      x-=2
+    end
+end
+
