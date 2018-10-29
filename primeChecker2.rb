@@ -51,3 +51,7 @@ def prmRnr(x)
     end
 end
 
+#Calling the fucntion
+puts "Starting!"
+puts prmRnr(1000)
+puts "Done!"
